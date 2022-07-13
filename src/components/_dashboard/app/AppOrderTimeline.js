@@ -14,30 +14,30 @@ import {
 import { fDateTime } from '../../../utils/formatTime';
 
 // ----------------------------------------------------------------------
-
+// nos partenaires 
 const TIMELINES = [
   {
-    title: '1983, orders, $4220',
+    title: 'eFileCabinet',
     time: faker.date.past(),
     type: 'order1'
   },
   {
-    title: '12 Invoices have been paid',
+    title: 'DocuWare',
     time: faker.date.past(),
     type: 'order2'
   },
   {
-    title: 'Order #37745 from September',
+    title: 'Cisco',
     time: faker.date.past(),
     type: 'order3'
   },
   {
-    title: 'New order placed #XF-2356',
+    title: 'Microsoft',
     time: faker.date.past(),
     type: 'order4'
   },
   {
-    title: 'New order placed #XF-2346',
+    title: 'Kapersky',
     time: faker.date.past(),
     type: 'order5'
   }

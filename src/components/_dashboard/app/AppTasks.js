@@ -14,11 +14,11 @@ import {
 // ----------------------------------------------------------------------
 
 const TASKS = [
-  'Create FireStone Logo',
-  'Add SCSS and JS files if required',
-  'Stakeholder Meeting',
-  'Scoping & Estimations',
-  'Sprint Showcase'
+  'Project Management Professional Training',
+  'Cisco Training',
+  'Electronic Document Management',
+  'computer support for mini companies',
+  'maintenance contract for computer equipment'
 ];
 
 // ----------------------------------------------------------------------

@@ -6,7 +6,7 @@ import { mockImgProduct } from '../utils/mockImages';
 // ----------------------------------------------------------------------
 
 const PRODUCT_NAME = [
-  'Nike Air Force 1 NDESTRUKT',
+ 'Nike Air Force 1 NDESTRUKT',
   'Nike Space Hippie 04',
   'Nike Air Zoom Pegasus 37 A.I.R. Chaz Bear',
   'Nike Blazer Low 77 Vintage',

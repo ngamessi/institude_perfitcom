@@ -61,14 +61,17 @@
         "ignoreRestSiblings": false
       }
     ],
+    
     "prettier/prettier": [
-      2,
+      0,
       {
+       
         "printWidth": 100,
         "singleQuote": true,
         "trailingComma": "none",
         "tabWidth": 2
       }
+      
     ]
   }
 }
