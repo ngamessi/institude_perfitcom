@@ -19,27 +19,33 @@ const TIMELINES = [
   {
     title: 'eFileCabinet',
     time: faker.date.past(),
-    type: 'order1'
+    type: 'order1',
+    icon: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fplay-lh.googleusercontent.com%2F-v4dAO6e4hNj4Xic4cqHJnjBb30WaHUuuhHerUGnXanBPeFXfphZOWlbu3ICASasE04&imgrefurl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3DeFileCabinetOnline.eFileCabinetOnline%26hl%3Dfr%26gl%3DUS&tbnid=A1BW6RXJMUBwMM&vet=12ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ..i&docid=YRImtXWDMAEDJM&w=512&h=512&itg=1&q=efilecabinet&ved=2ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ',
+
   },
   {
     title: 'DocuWare',
     time: faker.date.past(),
-    type: 'order2'
+    type: 'order2',
+    icon: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fplay-lh.googleusercontent.com%2F-v4dAO6e4hNj4Xic4cqHJnjBb30WaHUuuhHerUGnXanBPeFXfphZOWlbu3ICASasE04&imgrefurl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3DeFileCabinetOnline.eFileCabinetOnline%26hl%3Dfr%26gl%3DUS&tbnid=A1BW6RXJMUBwMM&vet=12ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ..i&docid=YRImtXWDMAEDJM&w=512&h=512&itg=1&q=efilecabinet&ved=2ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ',
   },
   {
     title: 'Cisco',
     time: faker.date.past(),
-    type: 'order3'
+    type: 'order3',
+    icon:'https://www.google.com/imgres?imgurl=https%3A%2F%2Fplay-lh.googleusercontent.com%2F-v4dAO6e4hNj4Xic4cqHJnjBb30WaHUuuhHerUGnXanBPeFXfphZOWlbu3ICASasE04&imgrefurl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3DeFileCabinetOnline.eFileCabinetOnline%26hl%3Dfr%26gl%3DUS&tbnid=A1BW6RXJMUBwMM&vet=12ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ..i&docid=YRImtXWDMAEDJM&w=512&h=512&itg=1&q=efilecabinet&ved=2ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ',
   },
   {
     title: 'Microsoft',
     time: faker.date.past(),
-    type: 'order4'
+    type: 'order4',
+    icon: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fplay-lh.googleusercontent.com%2F-v4dAO6e4hNj4Xic4cqHJnjBb30WaHUuuhHerUGnXanBPeFXfphZOWlbu3ICASasE04&imgrefurl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3DeFileCabinetOnline.eFileCabinetOnline%26hl%3Dfr%26gl%3DUS&tbnid=A1BW6RXJMUBwMM&vet=12ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ..i&docid=YRImtXWDMAEDJM&w=512&h=512&itg=1&q=efilecabinet&ved=2ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ',
   },
   {
     title: 'Kapersky',
     time: faker.date.past(),
-    type: 'order5'
+    type: 'order5',
+    icon: 'https://www.google.com/imgres?imgurl=https%3A%2F%2Fplay-lh.googleusercontent.com%2F-v4dAO6e4hNj4Xic4cqHJnjBb30WaHUuuhHerUGnXanBPeFXfphZOWlbu3ICASasE04&imgrefurl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3DeFileCabinetOnline.eFileCabinetOnline%26hl%3Dfr%26gl%3DUS&tbnid=A1BW6RXJMUBwMM&vet=12ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ..i&docid=YRImtXWDMAEDJM&w=512&h=512&itg=1&q=efilecabinet&ved=2ahUKEwjJgpiOpvn4AhXYhM4BHTKVDWYQMygAegUIARCoAQ',
   }
 ];
 
@@ -69,9 +75,7 @@ function OrderItem({ item, isLast }) {
       </TimelineSeparator>
       <TimelineContent>
         <Typography variant="subtitle2">{title}</Typography>
-        <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          {fDateTime(time)}
-        </Typography>
+        
       </TimelineContent>
     </TimelineItem>
   );
@@ -86,7 +90,7 @@ export default function AppOrderTimeline() {
         }
       }}
     >
-      <CardHeader title="Order Timeline" />
+      <CardHeader title="Our Partners"/>
       <CardContent>
         <Timeline>
           {TIMELINES.map((item, index) => (

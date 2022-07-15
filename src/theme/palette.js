@@ -1,3 +1,4 @@
+import { red } from '@mui/material/colors';
 import { alpha } from '@mui/material/styles';
 
 // ----------------------------------------------------------------------
@@ -34,6 +35,7 @@ const PRIMARY = {
   main: '#00AB55',
   dark: '#007B55',
   darker: '#005249',
+  red:'#ff0000',
   contrastText: '#fff'
 };
 const SECONDARY = {
