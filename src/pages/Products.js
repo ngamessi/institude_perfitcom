@@ -11,8 +11,7 @@ import {
   ProductFilterSidebar
 } from '../components/_dashboard/products';
 //
-import PRODUCTS from '../_mocks_/products';
-
+import { courses } from '../data';
 // ----------------------------------------------------------------------
 
 export default function EcommerceShop() {
@@ -50,7 +49,7 @@ export default function EcommerceShop() {
     <Page title="Dashboard: Courses | Perfitcom">
       <Container>
         <Typography variant="h4" sx={{ mb: 5 }}>
-          Courses 
+          Courses
         </Typography>
 
         <Stack
@@ -72,8 +71,7 @@ export default function EcommerceShop() {
           </Stack>
         </Stack>
 
-        <ProductList products={PRODUCTS} />
-        <ProductCartWidget />
+        <ProductList courses={courses} />
       </Container>
     </Page>
   );
