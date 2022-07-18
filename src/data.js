@@ -28,6 +28,57 @@ const courses = [
     domain: 'a domain',
     requirements: 'i am a requirement',
     files: 'i am a link'
+  },
+  {
+    id: 4,
+    name: 'wordpress',
+    type: 'web',
+    description: 'this is a course',
+    code: 'hh2',
+    domain: 'a domain',
+    requirements: 'i am a requirement',
+    files: 'i am a link'
+  },
+
+  {
+    id: 4,
+    name: 'wordpress',
+    type: 'web',
+    description: 'this is a course',
+    code: 'hh2',
+    domain: 'a domain',
+    requirements: 'i am a requirement',
+    files: 'i am a link'
+  },
+  {
+    id: 4,
+    name: 'wordpress',
+    type: 'web',
+    description: 'this is a course',
+    code: 'hh2',
+    domain: 'a domain',
+    requirements: 'i am a requirement',
+    files: 'i am a link'
+  },
+  {
+    id: 4,
+    name: 'wordpress',
+    type: 'web',
+    description: 'this is a course',
+    code: 'hh2',
+    domain: 'a domain',
+    requirements: 'i am a requirement',
+    files: 'i am a link'
+  },
+  {
+    id: 4,
+    name: 'wordpress',
+    type: 'web',
+    description: 'this is a course',
+    code: 'hh2',
+    domain: 'a domain',
+    requirements: 'i am a requirement',
+    files: 'i am a link'
   }
 ];
 
