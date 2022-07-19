@@ -5,7 +5,6 @@ import Page from '../components/Page';
 import {
   AppTasks,
   AppNewUsers,
- 
   AppItemOrders,
   AppNewsUpdate,
   AppWeeklySales,
@@ -36,7 +35,7 @@ export default function DashboardApp() {
           <Grid item xs={12} sm={6} md={4}>
             <AppItemOrders />
           </Grid>
-        
+
           <Grid item xs={12} md={6} lg={8}>
             <AppWebsiteVisits />
           </Grid>
@@ -57,7 +56,6 @@ export default function DashboardApp() {
             <AppNewsUpdate />
           </Grid>
 
-         
           <Grid item xs={12} md={6} lg={4}>
             <AppCurrentVisits />
           </Grid>
@@ -67,8 +65,6 @@ export default function DashboardApp() {
           </Grid>
           <Grid item xs={12} md={6} lg={8}>
             <AppTasks />
-
-        
           </Grid>
         </Grid>
       </Container>
