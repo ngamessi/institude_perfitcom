@@ -1,0 +1,9 @@
+.Courses h1 {
+  background-color: red;
+  margin: 30px auto;
+  padding: 3px;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+}

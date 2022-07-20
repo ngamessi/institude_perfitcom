@@ -1,0 +1,31 @@
+.nav-home .nav-head {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-home ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.nav-home ul li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+.nav-home ul li a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-home ul {
+    flex-wrap: wrap;
+  }
+}

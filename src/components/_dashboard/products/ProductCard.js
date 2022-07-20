@@ -12,8 +12,8 @@ import ColorPreview from '../../ColorPreview';
 // ----------------------------------------------------------------------
 
 const Wrapper = styled('div')({
-  background: 'red',
-  padding: '10px',
+  background: 'grey',
+  padding: '60px 10px',
   borderRadius: '5px'
 });
 
