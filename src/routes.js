@@ -9,7 +9,7 @@ import DashboardApp from './pages/DashboardApp';
 import Products from './pages/Products';
 import Blog from './pages/Blog';
 import User from './pages/User';
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import NotFound from './pages/Page404';
 
 // ----------------------------------------------------------------------
